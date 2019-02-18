@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49dc770b-d8ec-417c-9562-66ce7edd8c22" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/google_search.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/drivers/IEDriverServer.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/drivers/geckodriver.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="" afterPath="$PROJECT_DIR$/lib/browser.rb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/google_search.rb" afterPath="$PROJECT_DIR$/features/step_definitions/google_search.rb" />
+      <change beforePath="$PROJECT_DIR$/pages/homepage.rb" afterPath="$PROJECT_DIR$/features/support/homepage.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,16 +16,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase Coverage Results" MODIFIED="1549255193014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
+    <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase Coverage Results" MODIFIED="1550109257577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
     <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase__4_.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase (4) Coverage Results" MODIFIED="1549255840895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
-    <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase__5_.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5) Coverage Results" MODIFIED="1549255039502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
+    <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase__5_.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5) Coverage Results" MODIFIED="1550106149195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
     <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase__2_.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase (2) Coverage Results" MODIFIED="1549255593571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
     <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase__1_.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase (1) Coverage Results" MODIFIED="1549255397742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
     <SUITE FILE_PATH="coverage/google_search@Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase__3_.coverage" NAME="Scenario: As a user I navigate to google home page and do a websearch for a phrase (3) Coverage Results" MODIFIED="1549255683912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="google_search" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="google_search.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="google_search.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/google_search.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -42,10 +36,20 @@
         </entry>
       </file>
       <file leaf-file-name="homepage.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/homepage.rb">
+        <entry file="file://$PROJECT_DIR$/features/support/homepage.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -54,18 +58,28 @@
       <file leaf-file-name="google_search.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/google_search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <file leaf-file-name="step_definition.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/cucumber-3.1.2/lib/cucumber/glue/step_definition.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="1870">
+              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/action.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,6 +143,7 @@
         <option value="$PROJECT_DIR$/lib/pages/homepage.rb" />
         <option value="$PROJECT_DIR$/features/google_search.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/google_search.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -160,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,10 +183,22 @@
               <item name="google_search" type="b2602c69:ProjectViewProjectNode" />
               <item name="google_search" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="google_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google_search" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="google_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="google_search" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,11 +209,12 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/yadukrishnan88/basic_ruby_programs" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yadu's NoteBook\RubymineProjects\google_search" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yadu's NoteBook\RubymineProjects\google_search\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yadu's NoteBook\RubymineProjects\google_search\features\support" />
+      <recent name="C:\Users\Yadu's NoteBook\RubymineProjects\google_search" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,38 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (4)">
-    <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="google_search" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/google_search.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^As a user I navigate to google home page and do a websearch for a phrase$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase">
     <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="google_search" />
@@ -327,6 +323,37 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
+    <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="google_search" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/google_search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^As a user I navigate to google home page and do a websearch for a phrase$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+    </configuration>
     <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="google_search" />
@@ -359,19 +386,19 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +421,11 @@
       <workItem from="1548047373375" duration="1369000" />
       <workItem from="1548571054834" duration="1792000" />
       <workItem from="1548824165799" duration="450000" />
-      <workItem from="1549253960775" duration="2857000" />
+      <workItem from="1549253960775" duration="2930000" />
+      <workItem from="1550105145022" duration="1670000" />
+      <workItem from="1550109225118" duration="442000" />
+      <workItem from="1550121448809" duration="592000" />
+      <workItem from="1550467403816" duration="430000" />
     </task>
     <task id="LOCAL-00001" summary="adding new project">
       <created>1549256408168</created>
@@ -417,21 +448,19 @@
       <option name="project" value="LOCAL" />
       <updated>1549256734178</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding new project">
+      <created>1549256838807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549256838807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase - 2019.02.03 at 23h 39m 56s.xml">
+    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase - 2019.02.13 at 20h 54m 21s.xml">
       <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(1) - 2019.02.03 at 23h 22m 35s.xml">
-      <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(1) - 2019.02.03 at 23h 43m 52s.xml">
-      <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (1)" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(2) - 2019.02.03 at 23h 32m 03s.xml">
-      <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(2) - 2019.02.03 at 23h 46m 58s.xml">
       <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (2)" configurationId="CucumberRunConfigurationType" />
@@ -451,24 +480,34 @@
     <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(5) - 2019.02.03 at 23h 37m 23s.xml">
       <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(5) - 2019.02.13 at 19h 46m 50s.xml">
+      <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(5) - 2019.02.13 at 19h 48m 50s.xml">
+      <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__As_a_user_I_navigate_to_google_home_page_and_do_a_websearch_for_a_phrase_(5) - 2019.02.13 at 20h 00m 03s.xml">
+      <configuration name="Scenario: As a user I navigate to google home page and do a websearch for a phrase (5)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10637000" />
+    <option name="totallyTimeSpent" value="13844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26701966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5151286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51644737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51644737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.48487142" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5115132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -489,10 +528,51 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding new project" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/features/step_definitions/google_search.rb</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>@corrections</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Given</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>@browser</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>@driver</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/browser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/google_search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -509,19 +589,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/search.rb" />
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,19 +637,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/search.rb" />
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,14 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/search.rb" />
     <entry file="file://$PROJECT_DIR$/features/google_search.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -681,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,19 +823,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/search.rb" />
     <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/require_all-2.0.0/lib/require_all.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +835,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/cucumber-3.1.2/lib/cucumber/glue/invoke_in_world.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/runner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -801,26 +867,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/homepage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/google_search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+    <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/cucumber-3.1.2/lib/cucumber/glue/step_definition.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="1870">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby26/lib/ruby/gems/2.6.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/action.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -845,6 +911,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/homepage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>

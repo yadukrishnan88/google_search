@@ -3,6 +3,7 @@ require 'page-object'
 require 'require_all'
 require_all 'lib'
 require_all 'pages'
+# include 'PageObject'
 # Dir[File.dirname(__FILE__) + '/pages/*.rb'].each {|file| require file }
 
 Given(/^I open https:\/\/www\.google\.com$/) do
